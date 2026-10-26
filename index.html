@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Results Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Student Results Portal</h1>
+            <p>Welcome to our student information system</p>
+        </header>
+
+        <section class="form-section">
+            <h2>Student Information</h2>
+
+            <form>
+                <div class="form-group">
+                    <label for="first">First Name</label>
+                    <input type="text" id="first" placeholder="Enter first name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="middle">Middle Name</label>
+                    <input type="text" id="middle" placeholder="Enter middle name">
+                </div>
+
+                <div class="form-group">
+                    <label for="last">Last Name</label>
+                    <input type="text" id="last" placeholder="Enter last name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg">Registration Number</label>
+                    <input type="text" id="reg" placeholder="Enter registration number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Enter phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" placeholder="Enter your address">
+                </div>
+
+                <div class="form-group">
+                    <label for="level">Level</label>
+                    <select id="level">
+                        <option value="">Select level</option>
+                        <option>100 Level</option>
+                        <option>200 Level</option>
+                        <option>300 Level</option>
+                        <option>400 Level</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="course">Course</label>
+                    <input type="text" id="course" placeholder="Enter course">
+                </div>
+
+                <button type="submit">Submit Information</button>
+            </form>
+        </section>
+
+        <section class="results">
+            <h2>Student Results</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Course Code</th>
+                        <th>Course Title</th>
+                        <th>Score</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>CSC101</td>
+                        <td>Introduction to Computing</td>
+                        <td>85</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>MTH101</td>
+                        <td>General Mathematics</td>
+                        <td>72</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>GST101</td>
+                        <td>Use of English</td>
+                        <td>65</td>
+                        <td>C</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Student Results Portal. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
